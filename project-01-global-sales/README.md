@@ -175,4 +175,25 @@ Regions with high sales but relatively low profit margins should be reviewed to 
 
 The interactive dashboard was created using Microsoft Power BI to provide an overview of sales performance, profitability, regional performance, category performance, discount levels, and product-level profitability.
 
-![Global Sales & Profitability Dashboard](global-sales-dashboard.png)
+<img width="1485" height="847" alt="image" src="https://github.com/user-attachments/assets/6ef0a60c-9eed-408d-9ada-a89b82545c11" />
+
+## 📌 Conclusion
+
+The analysis shows that the business experienced strong growth in sales and profit between 2011 and 2014. However, profitability varied considerably across regions, categories, and discount levels.
+
+The analysis also identified Southeast Asia, particularly the Tables sub-category, as an area requiring attention due to its negative profit margin and high average discount.
+
+Overall, the findings suggest that improving discount strategies, reviewing loss-making products, and monitoring profitability at the regional and product levels could help improve business performance.
+
+## 🧠 Skills Demonstrated
+
+- Data cleaning and validation
+- Exploratory data analysis
+- Excel Pivot Tables
+- KPI analysis
+- Profitability analysis
+- Regional and category analysis
+- Discount analysis
+- Data visualization
+- Dashboard development with Power BI
+- Business insight and recommendation
