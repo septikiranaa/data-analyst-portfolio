@@ -175,7 +175,7 @@ Regions with high sales but relatively low profit margins should be reviewed to 
 
 The interactive dashboard was created using Microsoft Power BI to provide an overview of sales performance, profitability, regional performance, category performance, discount levels, and product-level profitability.
 
-<img width="1485" height="847" alt="image" src="https://github.com/user-attachments/assets/6ef0a60c-9eed-408d-9ada-a89b82545c11" />
+![Global Sales & Profitability Dashboard](global-sales-dashboard.png)
 
 ## 📌 Conclusion
 
