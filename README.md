@@ -18,9 +18,17 @@ This repository contains my data analytics projects using tools such as Excel, S
 
 **Tools:** Excel, Power BI
 
-Analysis of global sales and profitability performance across regions, categories, and discount levels.
+Analysis of global sales performance, profitability, regional performance, category performance, and discount impact using the Global Superstore dataset.
 
-> 🚧 Project in progress
+**Key Focus:**
+- Sales & profit trend analysis
+- Regional profitability
+- Category performance
+- Discount vs. profit analysis
+- Southeast Asia performance
+- Loss-making Tables products
+
+🔗 [View Project](./project-01-global-sales/)
 
 ### Project 2 — Coming Soon
 
