@@ -108,9 +108,16 @@ Kotlin (Android Studio) — mobile application prototype (UI/UX design)
 
 ## Dashboard / Application Prototype
 
-The project output includes both an analytical dashboard (Elbow Method plot, Silhouette Score plot, and PCA cluster scatter plot) and an Android application mockup showing cluster distribution, a searchable list of cooperatives by cluster, and individual cooperative detail pages.
-
-(Insert screenshots of the Elbow Method/Silhouette plots, cluster scatter plot, and Android app mockups here)
+  Based on the clustering model, an Android application prototype (built in Kotlin) was designed to make the results accessible to the agency's field team.
+  1. Home Page (redesigned) — now leads with key summary numbers: total cooperatives in East Java (20,885) and total cooperatives included in the clustering model
+     (12,122), followed by a "Koperasi Unggulan" (Featured Cooperatives) section listing top-tier cooperatives (e.g., Koperasi Konsumen HIMPAUDI Kecamatan Semen,
+     KPPS Al Karomah Makmur Jaya, Koperasi Petani Ngoom B...).
+  2. Cooperative Detail Page — tapping a cooperative opens its profile, showing: cooperative logo/icon, jenis koperasi (cooperative type), alamat lengkap (full
+     address), kabupaten/kota, informasi kontak (phone/email, marked "tidak tersedia" when not on file), and a short profil koperasi description.
+  3. Hasil Clustering (Clustering Results) Page — a donut chart breaking down cooperatives by cluster with percentages and average business volume per tier, e.g.,
+     Maju 30.20% (avg. Volume Usaha ~Rp1.3M), Berkembang 39.28% (~Rp750K), Belum Berkembang 30.53% (~Rp500K).
+  4. Statistik Page — shows the total number of cooperatives used in the analysis (12,122), a bar chart of cooperative categories/types ("Diagram Bidang Kategori
+     Koperasi"), and a scatter chart illustrating business volume growth trends ("Diagram Pertumbuhan Volume Usaha").
 
 ## Conclusion
 
