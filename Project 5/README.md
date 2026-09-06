@@ -57,20 +57,21 @@ Kotlin (Android Studio) — mobile application prototype (UI/UX design)
 
 3. Clustering Results
 
-  K-Means clustering (k=3) grouped cooperatives into three performance tiers:
-  
-  Cluster	Cooperative Count	Characteristics
-  Koperasi Maju (Advanced)	3,680 units	Highest performance based on member count, asset, and business volume; can serve as a model/example for other cooperatives
-  Koperasi Berkembang (Developing)	4,761 units	Shows good growth potential; needs a push to move up to the advanced tier
-  Koperasi Perlu Ditingkatkan (Needs Improvement)
-  
-  The clustering model was evaluated together with the agency's supervisory division and achieved an accuracy of up to 90%, confirming that the K-Means grouping
-  effectively reflects real-world cooperative performance levels.
-  
-  Insight: Nearly a third of cooperatives (3,700 units) fall into the "needs improvement" tier — this is the priority segment for targeted coaching and
-  financial/technical assistance programs.
+    K-Means clustering (k=3) grouped cooperatives into three performance tiers:
+    
+    Cluster	Cooperative Count	Characteristics
+    Koperasi Maju (Advanced)	3,680 units	Highest performance based on member count, asset, and business volume; can serve as a model/example for other
+    cooperatives
+    Koperasi Berkembang (Developing)	4,761 units	Shows good growth potential; needs a push to move up to the advanced tier
+    Koperasi Perlu Ditingkatkan (Needs Improvement)
+    
+    The clustering model was evaluated together with the agency's supervisory division and achieved an accuracy of up to 90%, confirming that the K-Means grouping
+    effectively reflects real-world cooperative performance levels.
+    
+    Insight: Nearly a third of cooperatives (3,700 units) fall into the "needs improvement" tier — this is the priority segment for targeted coaching and
+    financial/technical assistance programs.
 
-4. Android Application Prototype
+5. Android Application Prototype
   
   Based on the clustering model, an Android application prototype (built in Kotlin) was designed to make the results accessible to the agency's field team:
   
