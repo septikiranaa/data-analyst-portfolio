@@ -1,6 +1,7 @@
 🏢 Cooperative Performance Clustering & Android App — Dinas Koperasi Jawa Timur
 
 📌 Project Overview
+
 This project was developed during a certified internship (Magang Bersertifikat MBKM) at the Dinas Koperasi, Usaha Kecil dan Menengah (UKM) Provinsi Jawa Timur, placed under the Subbagian Penyusunan Program dan Anggaran. The project analyzes and clusters the performance of cooperatives across East Java using K-Means Clustering, and translates the results into an Android application prototype to help the agency monitor cooperative performance more efficiently.
 
 ## Business Problem
@@ -39,12 +40,12 @@ Kotlin (Android Studio) — mobile application prototype (UI/UX design)
 
 ## Analysis & Key Findings
 1. Data Preparation & Feature Engineering
-Explored dataset dimensions (12,121 rows × 39 columns) and data types
-Checked skewness of key features (JUMLAH ANGGOTA: 73.09, ASSET: 46.77, VOLUME USAHA: 66.07) — all highly right-skewed
-Applied log transformation to reduce skewness before scaling
-Applied StandardScaler to normalize feature scales, and PCA to reduce dimensionality for visualization
+  Explored dataset dimensions (12,121 rows × 39 columns) and data types
+  Checked skewness of key features (JUMLAH ANGGOTA: 73.09, ASSET: 46.77, VOLUME USAHA: 66.07) — all highly right-skewed
+  Applied log transformation to reduce skewness before scaling
+  Applied StandardScaler to normalize feature scales, and PCA to reduce dimensionality for visualization
 
-Insight: The raw performance indicators were extremely skewed (a small number of very large cooperatives), making log transformation and scaling essential preprocessing steps before clustering could produce meaningful groups.
+  Insight: The raw performance indicators were extremely skewed (a small number of very large cooperatives), making log transformation and scaling essential preprocessing steps before clustering could produce meaningful groups.
 
 2. Determining the Optimal Number of Clusters
 Tested cluster counts from k=2 to k=10 using the Elbow Method (inertia) and Silhouette Score
