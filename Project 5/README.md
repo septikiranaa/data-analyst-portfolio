@@ -119,11 +119,11 @@ This internship project demonstrated that K-Means Clustering can effectively seg
 The experience combined applied data science (K-Means clustering, feature engineering, model evaluation) with mobile application design, and was carried out within a real government agency setting — offering direct, hands-on exposure to how data-driven decision-making supports public sector policy on cooperative and SME development.
 
 ## Skills Demonstrated
-Data cleaning, feature engineering, and skewness correction on real-world government data (12K+ records)
-Unsupervised machine learning (K-Means Clustering) in Python (scikit-learn)
-Model selection using Elbow Method and Silhouette Score
-Dimensionality reduction and visualization with PCA
-Data analysis with Excel and Power BI
-Android application design and prototyping (Kotlin, UI/UX)
-Cross-functional collaboration within a government agency (Dinas Koperasi dan UKM Provinsi Jawa Timur)
-Technical reporting and stakeholder presentation
+- Data cleaning, feature engineering, and skewness correction on real-world government data (12K+ records)
+- Unsupervised machine learning (K-Means Clustering) in Python (scikit-learn)
+- Model selection using Elbow Method and Silhouette Score
+- Dimensionality reduction and visualization with PCA
+- Data analysis with Excel and Power BI
+- Android application design and prototyping (Kotlin, UI/UX)
+- Cross-functional collaboration within a government agency (Dinas Koperasi dan UKM Provinsi Jawa Timur)
+- Technical reporting and stakeholder presentation
