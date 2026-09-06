@@ -86,25 +86,25 @@ Kotlin (Android Studio) — mobile application prototype (UI/UX design)
     due to time constraints.
 
 ## Recommendations
-1. Prioritize Coaching for the "Needs Improvement" Cluster
+  1. Prioritize Coaching for the "Needs Improvement" Cluster
+  The 3,700 cooperatives in this tier should be the primary target for hands-on coaching, access-to-financing programs, and operational capacity building, since
+  they show the largest gap in members, assets, and business volume.
+  
+  3. Use "Advanced" Cooperatives as Mentor/Model Units
+  The 3,680 top-performing cooperatives could be leveraged as mentors or case studies in training programs for developing and underperforming cooperatives,
+  accelerating knowledge transfer within the sector.
+  
+  3. Push "Developing" Cooperatives Toward the Advanced Tier
+  The largest segment (4,761 units) already shows growth potential — targeted incentives or streamlined access to business expansion support could help this group
+  graduate into the advanced tier.
+  
+  5. Complete Backend Development for the Android App
+  To move from prototype to a usable tool, the next phase should prioritize backend development and REST API integration so field staff can access up-to-date
+  clustering data directly from the app rather than static reports.
 
-The 3,700 cooperatives in this tier should be the primary target for hands-on coaching, access-to-financing programs, and operational capacity building, since they show the largest gap in members, assets, and business volume.
-
-2. Use "Advanced" Cooperatives as Mentor/Model Units
-
-The 3,680 top-performing cooperatives could be leveraged as mentors or case studies in training programs for developing and underperforming cooperatives, accelerating knowledge transfer within the sector.
-
-3. Push "Developing" Cooperatives Toward the Advanced Tier
-
-The largest segment (4,761 units) already shows growth potential — targeted incentives or streamlined access to business expansion support could help this group graduate into the advanced tier.
-
-4. Complete Backend Development for the Android App
-
-To move from prototype to a usable tool, the next phase should prioritize backend development and REST API integration so field staff can access up-to-date clustering data directly from the app rather than static reports.
-
-5. Re-run Clustering Periodically
-
-Since cooperative performance changes over time, the clustering pipeline should be re-run on a regular basis (e.g., annually) so the agency's intervention targeting stays current.
+  5. Re-run Clustering Periodically
+  Since cooperative performance changes over time, the clustering pipeline should be re-run on a regular basis (e.g., annually) so the agency's intervention
+  targeting stays current.
 
 ## Dashboard / Application Prototype
 
