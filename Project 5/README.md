@@ -48,37 +48,41 @@ Kotlin (Android Studio) — mobile application prototype (UI/UX design)
   Insight: The raw performance indicators were extremely skewed (a small number of very large cooperatives), making log transformation and scaling essential   
   preprocessing steps before clustering could produce meaningful groups.
 
-3. Determining the Optimal Number of Clusters
-  Tested cluster counts from k=2 to k=10 using the Elbow Method (inertia) and Silhouette Score
-  Both methods converged on k=3 as the optimal number of clusters
+2. Determining the Optimal Number of Clusters
+- Tested cluster counts from k=2 to k=10 using the Elbow Method (inertia) and Silhouette Score
+- Both methods converged on k=3 as the optimal number of clusters
   
   Insight: A 3-cluster structure aligns naturally with a practical performance framework — advanced, developing, and needs-improvement — making the results
   directly usable for policy segmentation.
 
 3. Clustering Results
 
-K-Means clustering (k=3) grouped cooperatives into three performance tiers:
-
-Cluster	Cooperative Count	Characteristics
-Koperasi Maju (Advanced)	3,680 units	Highest performance based on member count, asset, and business volume; can serve as a model/example for other cooperatives
-Koperasi Berkembang (Developing)	4,761 units	Shows good growth potential; needs a push to move up to the advanced tier
-Koperasi Perlu Ditingkatkan (Needs Improvement)
-
-The clustering model was evaluated together with the agency's supervisory division and achieved an accuracy of up to 90%, confirming that the K-Means grouping effectively reflects real-world cooperative performance levels.
-
-Insight: Nearly a third of cooperatives (3,700 units) fall into the "needs improvement" tier — this is the priority segment for targeted coaching and financial/technical assistance programs.
+  K-Means clustering (k=3) grouped cooperatives into three performance tiers:
+  
+  Cluster	Cooperative Count	Characteristics
+  Koperasi Maju (Advanced)	3,680 units	Highest performance based on member count, asset, and business volume; can serve as a model/example for other cooperatives
+  Koperasi Berkembang (Developing)	4,761 units	Shows good growth potential; needs a push to move up to the advanced tier
+  Koperasi Perlu Ditingkatkan (Needs Improvement)
+  
+  The clustering model was evaluated together with the agency's supervisory division and achieved an accuracy of up to 90%, confirming that the K-Means grouping
+  effectively reflects real-world cooperative performance levels.
+  
+  Insight: Nearly a third of cooperatives (3,700 units) fall into the "needs improvement" tier — this is the priority segment for targeted coaching and
+  financial/technical assistance programs.
 
 4. Android Application Prototype
-
-Based on the clustering model, an Android application prototype (built in Kotlin) was designed to make the results accessible to the agency's field team:
-
-Home/Dashboard: overview of total cooperatives and cluster distribution (donut chart, bar chart, scatter plot of clusters)
-Cluster list: browsable list of cooperatives grouped by tier (Unggul/Berkembang/Perlu Ditingkatkan), with search and map view
-Cooperative detail page: shows cooperative type, address, contact info, and its assigned cluster/performance profile
-
-The application went through a revision iteration — the initial version was refined based on feedback to improve clarity of the cluster explanation and data presentation shown to end users (dinas staff).
-
-Note: The application is currently a UI/UX design prototype; backend development and REST API integration were not completed within the internship timeframe due to time constraints.
+  
+  Based on the clustering model, an Android application prototype (built in Kotlin) was designed to make the results accessible to the agency's field team:
+  
+  Home/Dashboard: overview of total cooperatives and cluster distribution (donut chart, bar chart, scatter plot of clusters)
+  Cluster list: browsable list of cooperatives grouped by tier (Unggul/Berkembang/Perlu Ditingkatkan), with search and map view
+  Cooperative detail page: shows cooperative type, address, contact info, and its assigned cluster/performance profile
+  
+  The application went through a revision iteration — the initial version was refined based on feedback to improve clarity of the cluster explanation and data
+  presentation shown to end users (dinas staff).
+  
+  Note: The application is currently a UI/UX design prototype; backend development and REST API integration were not completed within the internship timeframe due
+  to time constraints.
 
 ## Recommendations
 1. Prioritize Coaching for the "Needs Improvement" Cluster
