@@ -71,19 +71,19 @@ Kotlin (Android Studio) — mobile application prototype (UI/UX design)
     Insight: Nearly a third of cooperatives (3,700 units) fall into the "needs improvement" tier — this is the priority segment for targeted coaching and
     financial/technical assistance programs.
 
-5. Android Application Prototype
+4. Android Application Prototype
   
-  Based on the clustering model, an Android application prototype (built in Kotlin) was designed to make the results accessible to the agency's field team:
-  
-  Home/Dashboard: overview of total cooperatives and cluster distribution (donut chart, bar chart, scatter plot of clusters)
-  Cluster list: browsable list of cooperatives grouped by tier (Unggul/Berkembang/Perlu Ditingkatkan), with search and map view
-  Cooperative detail page: shows cooperative type, address, contact info, and its assigned cluster/performance profile
-  
-  The application went through a revision iteration — the initial version was refined based on feedback to improve clarity of the cluster explanation and data
-  presentation shown to end users (dinas staff).
-  
-  Note: The application is currently a UI/UX design prototype; backend development and REST API integration were not completed within the internship timeframe due
-  to time constraints.
+    Based on the clustering model, an Android application prototype (built in Kotlin) was designed to make the results accessible to the agency's field team:
+    
+    Home/Dashboard: overview of total cooperatives and cluster distribution (donut chart, bar chart, scatter plot of clusters)
+    Cluster list: browsable list of cooperatives grouped by tier (Unggul/Berkembang/Perlu Ditingkatkan), with search and map view
+    Cooperative detail page: shows cooperative type, address, contact info, and its assigned cluster/performance profile
+    
+    The application went through a revision iteration — the initial version was refined based on feedback to improve clarity of the cluster explanation and data
+    presentation shown to end users (dinas staff).
+    
+    Note: The application is currently a UI/UX design prototype; backend development and REST API integration were not completed within the internship timeframe
+    due to time constraints.
 
 ## Recommendations
 1. Prioritize Coaching for the "Needs Improvement" Cluster
