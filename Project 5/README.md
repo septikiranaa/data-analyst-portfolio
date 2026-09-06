@@ -45,13 +45,15 @@ Kotlin (Android Studio) — mobile application prototype (UI/UX design)
   Applied log transformation to reduce skewness before scaling
   Applied StandardScaler to normalize feature scales, and PCA to reduce dimensionality for visualization
 
-  Insight: The raw performance indicators were extremely skewed (a small number of very large cooperatives), making log transformation and scaling essential preprocessing steps before clustering could produce meaningful groups.
+  Insight: The raw performance indicators were extremely skewed (a small number of very large cooperatives), making log transformation and scaling essential   
+  preprocessing steps before clustering could produce meaningful groups.
 
-2. Determining the Optimal Number of Clusters
-Tested cluster counts from k=2 to k=10 using the Elbow Method (inertia) and Silhouette Score
-Both methods converged on k=3 as the optimal number of clusters
-
-Insight: A 3-cluster structure aligns naturally with a practical performance framework — advanced, developing, and needs-improvement — making the results directly usable for policy segmentation.
+3. Determining the Optimal Number of Clusters
+  Tested cluster counts from k=2 to k=10 using the Elbow Method (inertia) and Silhouette Score
+  Both methods converged on k=3 as the optimal number of clusters
+  
+  Insight: A 3-cluster structure aligns naturally with a practical performance framework — advanced, developing, and needs-improvement — making the results
+  directly usable for policy segmentation.
 
 3. Clustering Results
 
