@@ -40,10 +40,10 @@ Kotlin (Android Studio) — mobile application prototype (UI/UX design)
 
 ## Analysis & Key Findings
 1. Data Preparation & Feature Engineering
-  Explored dataset dimensions (12,121 rows × 39 columns) and data types
-  Checked skewness of key features (JUMLAH ANGGOTA: 73.09, ASSET: 46.77, VOLUME USAHA: 66.07) — all highly right-skewed
-  Applied log transformation to reduce skewness before scaling
-  Applied StandardScaler to normalize feature scales, and PCA to reduce dimensionality for visualization
+- Explored dataset dimensions (12,121 rows × 39 columns) and data types
+- Checked skewness of key features (JUMLAH ANGGOTA: 73.09, ASSET: 46.77, VOLUME USAHA: 66.07) — all highly right-skewed
+- Applied log transformation to reduce skewness before scaling
+- Applied StandardScaler to normalize feature scales, and PCA to reduce dimensionality for visualization
 
   Insight: The raw performance indicators were extremely skewed (a small number of very large cooperatives), making log transformation and scaling essential   
   preprocessing steps before clustering could produce meaningful groups.
