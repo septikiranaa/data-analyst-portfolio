@@ -137,7 +137,7 @@ Prioritize Standard Class as the default shipping mode due to its low cost and h
 ## Dashboard
 The interactive dashboard was built to provide an overview of total sales, gross profit, and units sold, alongside breakdowns by city, product, division, year/quarter, and factory-to-city distance.
 
-(Insert dashboard screenshot here — Total Sales by City, Total Sales by Year & Quarter, Top Sales by Product, Total Sales by Division, Average Distance between City and Factory)
+(dashboard_visualisasi_project4)
 
 ## Conclusion
 The analysis shows that while the business has a clear set of high-performing cities and products, distribution efficiency is currently constrained by factory locations that are poorly matched to demand. New York City, the top-performing market, is served by one of the farthest factories, while a closer, high-capacity factory (Wicked Choccy's) is underutilized relative to its proximity advantage.
