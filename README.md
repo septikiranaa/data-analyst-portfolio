@@ -30,7 +30,7 @@ Analysis of global sales performance, profitability, regional performance, categ
 - Southeast Asia performance
 - Loss-making Tables products
 
-[View Project](./project-01-global-sales/)
+🔗 [View Project](./project-01-global-sales/)
 
 ### Project 2 — Cooperative Performance Clustering & Android App — Dinas Koperasi Jawa Timur
 
@@ -50,8 +50,7 @@ PCA & cluster visualization
 Performance segmentation
 Android monitoring application prototype
 
-[View Project →](./Project%202/)
-Data-driven recommendations for cooperative development
+🔗 [View Project →](./Project%202/)
 
 ### Project 3 — Harvest Risk Analysis — Horticulture Commodities Across Districts in East Java
 
@@ -72,7 +71,7 @@ Analysis of horticultural harvest risk across districts/cities in East Java by c
 * Interactive risk dashboard with Looker Studio
 * Data-driven recommendations for regional policy
 
-[View Project →](./Project%203/)
+🔗 [View Project →](./Project%203/)
 
 ### Project 4 - US CANDY DISTRIBUTOR ANALYSIS_REVOU CAPSTONE PROJECT
 
@@ -93,9 +92,13 @@ Production & distribution optimization
 Interactive Power BI dashboard
 Data-driven business recommendations
 
-[View Project →](./Project%204/)
+🔗 [View Project →](./Project%204/)
 
 ### Project 5 - COMING SOON
+---
+--
+
+
 ## 📫 Contact
 
 - GitHub: https://github.com/septikiranaa
