@@ -30,9 +30,9 @@ Vincenty formula (assumes an ellipsoidal Earth, more precise) — calculated in 
 The final analysis uses the Vincenty distance, as it is more accurate (the difference from Haversine was small but the more precise method was preferred).
 
 ## Tools
-Microsoft Excel — data exploration, Haversine distance calculation, pivot tables
+Microsoft Excel for data exploration, Haversine distance calculation, pivot tables
 Python (Pandas, Geopy) — Vincenty distance calculation, data cleaning
-Whimsical — root cause analysis (fishbone diagram)
+Whimsical for root cause analysis (fishbone diagram)
 Dashboard/BI Tool — interactive dashboard for sales, distance, and shipping analysis
 
 ## Analysis & Key Findings
