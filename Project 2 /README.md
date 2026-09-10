@@ -1,4 +1,4 @@
-🏢 Cooperative Performance Clustering & Android App — Dinas Koperasi Jawa Timur
+# Cooperative Performance Clustering & Android App — Dinas Koperasi Jawa Timur
 
 📌 Project Overview
 
