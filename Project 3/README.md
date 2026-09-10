@@ -6,15 +6,16 @@ This project analyzes the risk of declining horticultural harvest yields across 
 
 ## Business/Research Problem 
 
-Several districts in East Java face the risk of declining harvest yields due to climate change, land degradation, water quality decline, and air pollution — creating challenges for regional food security and farmer welfare.
-
-This analysis aims to answer the following questions:
-
-How can districts/cities in East Java be grouped based on similarities in environmental quality and agricultural production?
-Which districts fall into high, medium, and low harvest-risk categories?
-Which environmental factors (land, water, air quality) most strongly relate to production stability?
-Which districts and commodities dominate horticultural production in the region?
-What policy approach fits each risk category?
+  Several districts in East Java face the risk of declining harvest yields due to climate change, land degradation, water quality decline, and air pollution —
+  creating challenges for regional food security and farmer welfare.
+  
+  This analysis aims to answer the following questions:
+  
+  How can districts/cities in East Java be grouped based on similarities in environmental quality and agricultural production?
+  Which districts fall into high, medium, and low harvest-risk categories?
+  Which environmental factors (land, water, air quality) most strongly relate to production stability?
+  Which districts and commodities dominate horticultural production in the region?
+  What policy approach fits each risk category?
 
 ## Dataset
 
