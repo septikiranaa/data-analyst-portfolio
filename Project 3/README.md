@@ -38,72 +38,83 @@ Looker Studio — interactive dashboard for visualizing production and risk clus
 ## Analysis & Key Findings
 1. Data Preparation
 
-Production data and environmental index data were standardized and merged by district/city code into a single integrated dataset.
-
-District/city names were standardized to uppercase with a "KABUPATEN/KOTA" prefix for consistency
-Missing production values were imputed with zero to avoid bias in total production calculations
-A new feature, total_produksi, was engineered by aggregating all crop production per district, alongside the average of the environmental quality indices
-Numeric variables were scaled to ensure balanced contribution across features — a necessary step before clustering
-
-Insight: Careful standardization and feature engineering were essential prerequisites for producing a reliable and homogeneous clustering result.
+    Production data and environmental index data were standardized and merged by district/city code into a single integrated dataset.
+    
+    District/city names were standardized to uppercase with a "KABUPATEN/KOTA" prefix for consistency
+    Missing production values were imputed with zero to avoid bias in total production calculations
+    A new feature, total_produksi, was engineered by aggregating all crop production per district, alongside the average of the environmental quality indices
+    Numeric variables were scaled to ensure balanced contribution across features — a necessary step before clustering
+    
+    Insight: Careful standardization and feature engineering were essential prerequisites for producing a reliable and homogeneous clustering result.
 
 2. Clustering Methodology
 
-Agglomerative Hierarchical Clustering (Ward linkage, Euclidean distance) was applied to group districts based on total production and environmental quality indices.
-
-A dendrogram was used to visually determine the optimal number of clusters, revealing three main clusters
-Cluster quality was validated using the Silhouette Score, confirming a homogeneous and reliable grouping
-Clusters were mapped into index categories (Poor, Moderate, Good) and production categories (Low, Moderate, High)
-
-Insight: The three-cluster structure enabled a clear, interpretable framework for converting raw environmental and production data into actionable risk tiers.
+    Agglomerative Hierarchical Clustering (Ward linkage, Euclidean distance) was applied to group districts based on total production and environmental quality
+    indices.
+    
+    A dendrogram was used to visually determine the optimal number of clusters, revealing three main clusters
+    Cluster quality was validated using the Silhouette Score, confirming a homogeneous and reliable grouping
+    Clusters were mapped into index categories (Poor, Moderate, Good) and production categories (Low, Moderate, High)
+    
+    Insight: The three-cluster structure enabled a clear, interpretable framework for converting raw environmental and production data into actionable risk tiers.
 
 3. Risk Classification Framework
 
-Based on the cluster mapping, districts were classified into three harvest-risk levels:
-
-Risk Level	Criteria
-High Risk	Poor environmental index + High production
-Medium Risk	Other combinations
-Low Risk	Good environmental index + High production
-
-Insight: High current productivity does not guarantee future sustainability — districts with high production but poor environmental quality are the most vulnerable to future yield decline.
+    Based on the cluster mapping, districts were classified into three harvest-risk levels:
+    
+    Risk Level	Criteria
+    High Risk	Poor environmental index + High production
+    Medium Risk	Other combinations
+    Low Risk	Good environmental index + High production
+    
+    Insight: High current productivity does not guarantee future sustainability — districts with high production but poor environmental quality are the most
+   vulnerable to future yield decline.
 
 4. Regional Interpretation
-Surabaya and Malang — high production but classified as high risk due to poor environmental quality
-Kota Batu — a strong example of low risk, maintaining balance between productivity and environmental quality
-Some districts show relatively good environmental quality but still low production — indicating potential for improvement through better land optimization and agricultural technology
-Districts with both good environmental quality and high production were classified as low risk, though continued environmental maintenance remains important for long-term sustainability
-
-Insight: Each risk category requires a distinct policy approach — environmental restoration for high-risk areas, capacity building for medium-risk areas, and sustainability-focused programs for low-risk areas.
+    Surabaya and Malang — high production but classified as high risk due to poor environmental quality
+    Kota Batu — a strong example of low risk, maintaining balance between productivity and environmental quality
+    Some districts show relatively good environmental quality but still low production — indicating potential for improvement through better land optimization and
+    agricultural technology
+    Districts with both good environmental quality and high production were classified as low risk, though continued environmental maintenance remains important
+    for long-term sustainability
+    
+    Insight: Each risk category requires a distinct policy approach — environmental restoration for high-risk areas, capacity building for medium-risk areas, and
+    sustainability-focused programs for low-risk areas.
 
 5. Production Overview (2024)
-East Java's horticultural production grew 2.76% compared to the previous year
-The largest contributors were Kabupaten Malang, Pasuruan, and Probolinggo
-Dominant commodities: cabai (chili), bawang merah (shallots), and kentang (potato)
-Most districts fall into the medium risk category overall
-
-Insight: Growth in aggregate production coexists with uneven environmental sustainability across regions — underscoring the need for region-specific rather than uniform agricultural policy.
+    East Java's horticultural production grew 2.76% compared to the previous year
+    The largest contributors were Kabupaten Malang, Pasuruan, and Probolinggo
+    Dominant commodities: cabai (chili), bawang merah (shallots), and kentang (potato)
+    Most districts fall into the medium risk category overall
+    
+    Insight: Growth in aggregate production coexists with uneven environmental sustainability across regions — underscoring the need for region-specific rather
+    than uniform agricultural policy.
 
 ## Recommendations
 1. Prioritize Environmental Recovery in High-Risk Districts
 
-High-risk districts (e.g., Surabaya, Malang) should be prioritized for land rehabilitation, water conservation, and the adoption of environmentally friendly farming practices to protect long-term production sustainability.
+    High-risk districts (e.g., Surabaya, Malang) should be prioritized for land rehabilitation, water conservation, and the adoption of environmentally friendly
+    farming practices to protect long-term production sustainability.
 
-2. Build Production Capacity in Medium-Risk Districts
+3. Build Production Capacity in Medium-Risk Districts
 
-Medium-risk regions should be directed toward increasing production capacity through agricultural technology adoption, input subsidies, and farmer mentoring/assistance programs for sustainable land optimization.
+    Medium-risk regions should be directed toward increasing production capacity through agricultural technology adoption, input subsidies, and farmer
+    mentoring/assistance programs for sustainable land optimization.
 
 3. Maintain and Add Value in Low-Risk Districts
 
-Low-risk districts (e.g., Kota Batu) should focus on maintaining environmental quality while developing added value, such as horticultural agrotourism, to serve as a model of best practice for other regions.
+    Low-risk districts (e.g., Kota Batu) should focus on maintaining environmental quality while developing added value, such as horticultural agrotourism, to
+    serve as a model of best practice for other regions.
 
-4. Integrate Environmental Monitoring into Agricultural Policy
+5. Integrate Environmental Monitoring into Agricultural Policy
 
-Local governments should continue to track environmental indices (IKLH, IKA, IKU, IKL) alongside production data, rather than relying on production volume alone, to detect early warning signs of future yield decline.
+    Local governments should continue to track environmental indices (IKLH, IKA, IKU, IKL) alongside production data, rather than relying on production volume
+    alone, to detect early warning signs of future yield decline.
 
 5. Use the Risk Dashboard for Ongoing Decision-Making
-
-The Looker Studio dashboard should be used as a living tool for policymakers to monitor cluster shifts over time and reassess district risk levels as new BPS/Open Data updates become available.
+    
+    The Looker Studio dashboard should be used as a living tool for policymakers to monitor cluster shifts over time and reassess district risk levels as new
+    BPS/Open Data updates become available.
 
 ## Dashboard
 
