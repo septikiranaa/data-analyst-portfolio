@@ -1,5 +1,4 @@
-# Project 4 - Olist E-Commerce Analysis_US CANDY DISTRIBUTOR
-REVOU CAPSTONE PROJECT
+# Project 4 - US CANDY DISTRIBUTOR ANALYSIS_REVOU CAPSTONE PROJECT
 
 SQL & Power BI analysis using the Brazilian E-Commerce Public Dataset by Olist.
 
