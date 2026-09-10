@@ -134,3 +134,6 @@ The experience combined applied data science (K-Means clustering, feature engine
 - Android application design and prototyping (Kotlin, UI/UX)
 - Cross-functional collaboration within a government agency (Dinas Koperasi dan UKM Provinsi Jawa Timur)
 - Technical reporting and stakeholder presentation
+
+## FILE CODING
+![file_ipynb](project2_ipynb)
