@@ -13,7 +13,7 @@ This analysis aims to answer the following questions:
 6. How can underperforming products and cities be supported through targeted promotion?
 
 ## Problem Understanding
-![problem_understading](root cause analysis)
+![problem_understading](root_cause_analysis)
 
 ## Dataset 
 The dataset was sourced from the Maven Analytics platform (Kaggle) and contains 10,194 records and 39 variables, organized into the following tables:
