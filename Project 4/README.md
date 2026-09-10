@@ -31,6 +31,8 @@ Vincenty formula (assumes an ellipsoidal Earth, more precise) — calculated in 
 
 The final analysis uses the Vincenty distance, as it is more accurate (the difference from Haversine was small but the more precise method was preferred).
 
+Dataset Link : https://mavenanalytics.io/data-playground?order=number_of_records%2Cdesc&search=US%20candy
+
 ## Tools
 Microsoft Excel for data exploration, Haversine distance calculation, pivot tables
 Python (Pandas, Geopy) — Vincenty distance calculation, data cleaning
