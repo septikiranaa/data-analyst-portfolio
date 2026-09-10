@@ -9,6 +9,8 @@ This repository contains my data analytics projects using tools such as Excel, S
 - Excel
 - SQL
 - Power BI
+- Looker Data Studio
+- Tableau
 - Python
 - Pandas
 
