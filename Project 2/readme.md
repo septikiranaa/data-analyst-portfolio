@@ -109,19 +109,22 @@ Kotlin (Android Studio) — mobile application prototype (UI/UX design)
 ## Dashboard / Application Prototype
 
   Based on the clustering model, an Android application prototype (built in Kotlin) was designed to make the results accessible to the agency's field team.
-  1. Home Page (redesigned) — now leads with key summary numbers: total cooperatives in East Java (20,885) and total cooperatives included in the clustering model
+  1. Home Page (redesigned)
+     now leads with key summary numbers: total cooperatives in East Java (20,885) and total cooperatives included in the clustering model
      (12,122), followed by a "Koperasi Unggulan" (Featured Cooperatives) section listing top-tier cooperatives (e.g., Koperasi Konsumen HIMPAUDI Kecamatan Semen,
      KPPS Al Karomah Makmur Jaya, Koperasi Petani Ngoom B...).
-  2. Cooperative Detail Page — tapping a cooperative opens its profile, showing: cooperative logo/icon, jenis koperasi (cooperative type), alamat lengkap (full
+  2. Cooperative Detail Page
+     Tapping a cooperative opens its profile, showing: cooperative logo/icon, jenis koperasi (cooperative type), alamat lengkap (full
      address), kabupaten/kota, informasi kontak (phone/email, marked "tidak tersedia" when not on file), and a short profil koperasi description.
-  3. Hasil Clustering (Clustering Results) Page — a donut chart breaking down cooperatives by cluster with percentages and average business volume per tier, e.g.,
+  3. Hasil Clustering (Clustering Results)
+     Page — a donut chart breaking down cooperatives by cluster with percentages and average business volume per tier, e.g.,
      Maju 30.20% (avg. Volume Usaha ~Rp1.3M), Berkembang 39.28% (~Rp750K), Belum Berkembang 30.53% (~Rp500K).
   4. Statistik Page — shows the total number of cooperatives used in the analysis (12,122), a bar chart of cooperative categories/types ("Diagram Bidang Kategori
      Koperasi"), and a scatter chart illustrating business volume growth trends ("Diagram Pertumbuhan Volume Usaha").
 
 ## Conclusion
 
-This internship project demonstrated that K-Means Clustering can effectively segment East Java's cooperatives into three actionable performance tiers — advanced, developing, and needs-improvement — based on asset, business volume, and membership data, achieving up to 90% agreement with the agency's own performance assessments. The resulting Android application prototype provides a foundation for translating this analysis into a practical monitoring tool for policymakers.
+This internship project demonstrated that K-Means Clustering can effectively segment East Java's cooperatives into three actionable performance tiers, advanced, developing, and needs-improvement, based on asset, business volume, and membership data, achieving up to 90% agreement with the agency's own performance assessments. The resulting Android application prototype provides a foundation for translating this analysis into a practical monitoring tool for policymakers.
 
 The experience combined applied data science (K-Means clustering, feature engineering, model evaluation) with mobile application design, and was carried out within a real government agency setting — offering direct, hands-on exposure to how data-driven decision-making supports public sector policy on cooperative and SME development.
 
