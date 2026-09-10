@@ -110,7 +110,7 @@ The Looker Studio dashboard should be used as a living tool for policymakers to 
 An interactive dashboard was built using Looker Studio to visualize production trends, environmental quality indices, and the resulting risk clusters by district/city, presented through charts, tables, and maps.
 
 🔗 Live Dashboard: https://lookerstudio.google.com/u/3/reporting/5ef719bc-2572-4186-93cc-f70297076a2e
-![Dashboard visualisasi](dashboard.visualisasi.png)
+![Dashboard visualisasi](dashboard.visualisasi)
 
 ## Conclusion
 
