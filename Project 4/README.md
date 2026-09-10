@@ -156,8 +156,3 @@ Data visualization and dashboard development
 Business insight and recommendation development
 Cross-functional team collaboration (cleaning, analysis, visualization, communication)
 
-## References
-Dataset: Maven Analytics — US Candy Distributor
-Business Analysis (Whimsical — Root Cause Diagram): (link)
-Cleaned Data: (link)
-Dashboard: (link)
