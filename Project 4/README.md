@@ -12,6 +12,8 @@ This analysis aims to answer the following questions:
 5. Which factory should be prioritized to supply high-demand cities more efficiently?
 6. How can underperforming products and cities be supported through targeted promotion?
 
+## Problem Understanding
+![problem_understading](root cause analysis)
 
 ## Dataset 
 The dataset was sourced from the Maven Analytics platform (Kaggle) and contains 10,194 records and 39 variables, organized into the following tables:
