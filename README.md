@@ -32,29 +32,26 @@ Analysis of global sales performance, profitability, regional performance, categ
 
 🔗 [View Project](./project-01-global-sales/)
 
-### Project 4 — US Candy Distributor — Distribution Optimization Analysis
-
-Program RevoU Tech Academy — Data Analytics Capstone Project (Kampus Merdeka Indonesia Jaya) Tim: Team 7 — Section Sabang (13 anggota) 
-Peran saya: Data Analyst and Data Visualization
-Tools: Excel, Python (Pandas, Geopy), Whimsical (root cause diagram), Dashboard/BI Tool (Power BI) 
-Tags: Data Analytics Geospatial Analysis Business Case Python Dashboarding
-
-
-
-### Project 1 — Global Sales & Profitability Analysis
+### Project 2 — Cooperative Performance Clustering & Android App — Dinas Koperasi Jawa Timur
 
 **Tools:** Excel, Power BI
 
-Analysis of global sales performance, profitability, regional performance, category performance, and discount impact using the Global Superstore dataset.
+Tools: Python, Pandas, NumPy, Scikit-learn, Excel, Power BI, Kotlin
 
-**Key Focus:**
-- Sales & profit trend analysis
-- Regional profitability
-- Category performance
-- Discount vs. profit analysis
-- Southeast Asia performance
-- Loss-making Tables products
+Analysis and clustering of cooperative performance across East Java using the K-Means Clustering algorithm during an MBKM internship at Dinas Koperasi dan UKM Provinsi Jawa Timur. The project segments cooperatives based on key performance indicators and translates the results into an Android application prototype for monitoring and targeted development.
 
+Key Focus:
+
+Cooperative performance analysis
+Data preprocessing & log transformation
+K-Means clustering & cluster evaluation
+Asset, business volume & member analysis
+PCA & cluster visualization
+Performance segmentation
+Android monitoring application prototype
+
+🔗 [View Project](./project_2)
+Data-driven recommendations for cooperative development
 ## 📫 Contact
 
 - GitHub: https://github.com/septikiranaa
